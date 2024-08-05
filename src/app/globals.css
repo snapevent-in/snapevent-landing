@@ -10,3 +10,16 @@ h1, h2, h3, h4, h5, h6 {
   @apply text-white;
 }
 
+.footer-line {
+  position: relative;
+}
+
+.footer-line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 35px; /* Adjust this value to change the left gap */
+  right: 35px; /* Adjust this value to change the right gap */
+  height: 1px; /* Adjust the height if needed */
+  background-color: white; /* Border color */
+}
