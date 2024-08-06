@@ -23,3 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 1px; /* Adjust the height if needed */
   background-color: white; /* Border color */
 }
+
+.custom-input::placeholder {
+  color: black;
+}
